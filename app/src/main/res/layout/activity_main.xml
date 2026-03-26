@@ -14,8 +14,10 @@
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558" />
 
     <Button
         android:id="@+id/clickmebutton"
@@ -30,6 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         tools:layout_editor_absoluteX="70dp"
         tools:layout_editor_absoluteY="147dp" />
 
@@ -38,7 +41,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Portuguese"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="230dp" />
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <Spinner
+        android:id="@+id/languageSpinner"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="187dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
